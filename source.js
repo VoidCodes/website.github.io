@@ -8,3 +8,8 @@ for (i = 0; i < 1000; i++) {
     alert("HA HA HA")
 }
 }
+function alertWithoutNotice(message){
+    setTimeout(function(){
+        alert(message);
+    }, 1000);
+}
